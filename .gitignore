@@ -4,3 +4,6 @@ assignment_1_flask_app/*.pyc
 
 # do not track the virutal environment
 assignment_1_flask_app/venv
+
+# do not track initialisation files
+assignment_1_flask_app/*.ini
