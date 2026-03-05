@@ -1,9 +1,9 @@
 services:
   flask-app:
-    image: flask-weight-conversion-app:latest
     build:
       context: assignment_1_flask_app
       dockerfile: Dockerfile
+    image: gpaluws/flask-weight-conversion-app:latest
   nginx:
     image: nginx:latest
     ports:
