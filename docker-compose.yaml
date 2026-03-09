@@ -1,5 +1,5 @@
 services:
-  flask-app:
+  flask-weight-converter:
     build:
       context: assignment_1_flask_app
       dockerfile: Dockerfile
